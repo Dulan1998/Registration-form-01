@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: right;
+    height: 100vh;
+    align-items: center;
+    
+}
+.form{
+    width: 350px;
+    height: 450px;
+    background-color: rgba(41, 39, 39, 0.3,0.3);
+    margin-right: 5cm;
+    box-shadow: 0 5px 30px  black;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+.btn button{
+    margin: 30px 0px 40px 30px;
+    background-color: transparent;
+    border-style: none;
+    color: beige;
+    font-size: larger;
+    font-weight: 550;
+    
+    
+}
+.btn button:hover{
+    color: greenyellow;
+}
+.formGroup{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.formGroup input{
+    margin:2px;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: aliceblue;
+    font-size:large;
+    font-weight: 300;
+    
+}
+.formGroup:hover{
+    color: yellow;
+}
+::placeholder{
+    color: aliceblue;
+    font-size:large;
+    font-weight: 300;
+    
+
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    margin: 16px!important;
+    
+}
+.checkbox input{        
+    margin-right: 10px;     
+   height: 15px;
+   width: 15px;
+}
+/* above checkbox statement use as like this
+     #checkbox{
+    margin-right: 10px;     
+   height: 15px;
+   width: 15px;     */
+
+   input:focus{
+    outline: none !important;
+    border-bottom: 2px solid greenyellow;
+   }
+   .text{
+    color: rgb(199, 197, 197);
+    font-size: 13px;
+  }
+  .register{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0 15px 30px ;
+    background-image: linear-gradient(rgb(146, 253, 146),rgb(76, 127, 29));
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    touch-action: manipulation;
+    
+  }
+  .register:hover{
+    width: 204px;
+    height: 52px;
+    background-image: linear-gradient(rgb(156, 254, 43),rgb(201, 248, 14));
+  }
+  .register:active{
+    width: 198px;
+    height: 49px;
+    background-image: linear-gradient(rgb(254, 250, 43),rgb(248, 154, 14));
+  }
+.signUp{
+    display: none;
+}

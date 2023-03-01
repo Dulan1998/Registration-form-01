@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Link css-->\
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="btn">
+                <button class="signUpbtn">Sign up</button>
+                <button class="loginbtn">Log in</button>
+            </div>
+
+            <form class="signUp" action="" method="get">
+                <div class="formGroup">
+                    <input type="text" id="userName" name="userName" placeholder="User name" autocomplete="off">
+                </div>
+                <div class="formGroup">
+                    <input type="text" id="email" name="email" placeholder="E-mail" autocomplete="off">
+                </div>
+                <div class="formGroup">
+                    <input type="password" id="password" name="password" placeholder="password" autocomplete="off">
+                </div>
+                <div class="formGroup">
+                    <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm password" autocomplete="off">
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span class="text">
+                        I agree with term & conditions.
+                    </span>            
+                </div>
+                <div class="formGroup">
+                    <button class="register">Register</button>  
+                </div>    
+               
+            </form>
+
+            <!--login form-->
+            
+            <form class="login" action="" method="get">
+                <div class="formGroup">
+                    <input type="text" id="userName" name="userName" placeholder="User name" autocomplete="off">
+                </div>
+                
+                <div class="formGroup">
+                    <input type="password" id="password" name="password" placeholder="password" autocomplete="off">
+                </div>
+                
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span class="text">
+                        Keep me signed in on this device.
+                    </span>            
+                </div>
+                <div class="formGroup">
+                    <button class="register">Login</button>   
+                </div>    
+            </form>
+            
+        </div>
+
+    </div>
+    <script src="jQuery.js"></script>
+</body>
+</html>
